@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src/",
+    "lint": "eslint ./codebase/rdicidr-0.1.0/src/",
     "prettier": "prettier -c ./src/"
   },
   "eslintConfig": {
