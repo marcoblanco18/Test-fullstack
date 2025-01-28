@@ -13,6 +13,8 @@ jobs:
         run: npm install 
       - name: Linter (ESLint) npm run lint
         run: npm run lint
+      - name: install prettier
+        run: npm install prettier --save-dev
       - name: Formatter (Prettier) npm run prettier
         run: npm run prettier 
       - name: Test (Jest) CI=true npm run test
