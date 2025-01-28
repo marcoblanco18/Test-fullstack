@@ -9,6 +9,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: npm install -g bats
-      - run: bats -v
+      - name: Install dependencies npm install
+        run: npm install 
+      - name: Linter (ESLint) npm run lint
+        run: npm run lint
+      - name: Formatter (Prettier) npm run prettier
+        run: npm run prettier 
+      - name: Test (Jest) CI=true npm run test
+        run: npm run test
+      - name: Build npm run build
+        run: npm run build
+      
 
