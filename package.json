@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts ./codebase/rdicidr-0.1.0/src/tests",
     "eject": "react-scripts eject",
     "lint": "eslint ./codebase/rdicidr-0.1.0/src/",
     "prettier": "prettier --write ./codebase/rdicidr-0.1.0/src/"
